@@ -5,15 +5,14 @@ API service provides BSB listing, searching BSB data using BSB number functional
 This application will send user notifications to messaging queue and notification service will consume those messages and send notifications
 
 ### Technologies used
-Springboot
-JDK 11
-Postgres
-ActiveMQ
-Auth0
-Redis
+1. Springboot
+2. JDK 11
+3. Postgres
+4. ActiveMQ
+5. Auth0
+6. Redis
 
 ### Assumptions
 Things are not dockerized
-File processing module is not part of this project and part of the bsb-file-processing-service
-But keeping that module here to test the API functionality.
+File processing module  is not actually part of this project. But duplicating that module here to test the API service
 
